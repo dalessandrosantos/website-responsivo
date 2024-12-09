@@ -148,6 +148,38 @@ main .container {
   font-size: 30px;
   font-weight: 600;
 }
+ 
+/* section diferenciais */
+
+ .diferenciais .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+
+}
+
+.diferenciais .card {
+  width: 30%;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 15px;
+  transition: 0.3s;
+  text-align: justify;
+}
+
+.diferenciais .card:hover {
+  box-shadow: 0px 10px 67px 8px #e6e6fa;
+}
+
+.diferenciais .card img {
+  width: 60px;
+}
+
+.diferenciais .card .titulo {
+  margin: 13px 0;
+  font-weight: 600;
+}
 
 /* responsivo */
 @media screen and (max-width: 960px) {
@@ -208,6 +240,14 @@ main .container {
 
   .resultados-numero {
     margin-top: 30px;
+  }
+
+  .diferenciais .container {
+    flex-direction: column;
+  }
+
+  .diferenciais .card {
+    width: 100%;
   }
 }
 

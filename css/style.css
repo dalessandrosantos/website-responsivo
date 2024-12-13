@@ -216,7 +216,7 @@ main .container {
   font-size: 20px;
 }
 
-/*  */
+/* section card */
 
 .melhores-lugares .azul {
   font-size: 24px;
@@ -312,6 +312,53 @@ main .container {
   border-radius: 14px;
   color: white;
   background-color: var(--verde);
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--verde-escuro);
+}
+
+footer .container {
+  display: flex;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container ul {
+  text-align: center;
+}
+
+footer .container h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+footer .container li {
+  margin: 10px 0;
+}
+
+footer .container a {
+  color: white;
+}
+
+footer .redes-sociais {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+footer .redes-sociais img  {
+  margin-right: 50px;
+  height: 90%;
+  width: 22px;
+}
+
+footer .redes-sociais a {
   cursor: pointer;
 }
 
@@ -424,6 +471,21 @@ main .container {
   .newsletter .box-newsletter button {
     width: 50%;
     margin-top: 20px;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .container ul {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  footer .container .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    
   }
 }
 

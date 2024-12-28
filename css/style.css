@@ -94,10 +94,15 @@ nav {
 .ul li a{
   color: white;
   text-transform: uppercase;
+  transition: 0.1s;
+
 }
 
 .ul li a:hover {
-  color: red;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: #19576395;
+  color: white;
 }
 
 /* main */
@@ -294,6 +299,12 @@ main .container {
   background-color: var(--orange);
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.melhores-lugares .cards .btn:hover {
+  background-color: #14424b;
+  transform: translateY(-8%);
 }
 
 /* section newsletter */
@@ -340,7 +351,13 @@ main .container {
   color: white;
   background-color: var(--verde);
   cursor: pointer;
+  transition: 0.3s;
 }
+
+.newsletter .box-newsletter .btn-newsletter:hover {
+  background-color: #14424b;
+}
+
 
 /* footer */
 
